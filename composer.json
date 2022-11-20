@@ -1,0 +1,5 @@
+{
+    "require": {
+        "knawat/knawat-php-sdk": "^1.0"
+    }
+}

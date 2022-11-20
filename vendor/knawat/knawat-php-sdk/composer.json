@@ -1,0 +1,31 @@
+{
+    "name": "knawat/knawat-php-sdk",
+    "version": "1.0.2",
+    "description": "A PHP wrapper for the Knawat REST API",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Dharmesh Patel",
+            "email": "dspatel44@gmail.com"
+        }
+    ],
+    "keywords": [
+        "API",
+        "Knawat",
+        "Dropshipping"
+    ],
+    "require": {
+        "php": ">= 5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Knawat\\": "src/Knawat"
+        }
+    }
+}
